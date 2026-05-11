@@ -1,4 +1,4 @@
-package com.valimade.detectiveinvestigation
+package com.valimade.detectiveinvestigation.base.ui.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.valimade.detectiveinvestigation.ui.theme.DetectiveInvestigationTheme
+import com.valimade.detectiveinvestigation.base.ui.theme.DetectiveInvestigationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.valimade.detectiveinvestigation.ui.theme
+package com.valimade.detectiveinvestigation.base.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
