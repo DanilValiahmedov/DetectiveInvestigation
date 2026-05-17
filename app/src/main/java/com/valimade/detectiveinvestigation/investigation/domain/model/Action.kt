@@ -14,6 +14,9 @@ data class Action(
     val cost: Int,
     val relatedEvent: List<UUID>,
     val relatedActions: List<UUID>,
+    val relatedDossier: List<UUID>,
+    val relatedChapter: List<UUID>,
+    val relatedNote: List<UUID>,
     val closingEvent: List<UUID>,
     val closingActions: List<UUID>,
 )

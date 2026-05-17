@@ -14,4 +14,10 @@ data class Dossier(
     val additionalPhotos: List<String>,
     val isShow: Boolean,
     val audio: String?,
+    val relatedEvent: List<UUID>,
+    val relatedActions: List<UUID>,
+    val relatedChapter: List<UUID>,
+    val relatedNote: List<UUID>,
+    val closingEvent: List<UUID>,
+    val closingActions: List<UUID>,
 )
