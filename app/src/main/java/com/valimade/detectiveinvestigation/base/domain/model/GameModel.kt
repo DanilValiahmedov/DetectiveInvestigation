@@ -17,7 +17,7 @@ data class GameModel(
     val dossier: List<UUID>,
     val pointsSpent: List<PointsSpent>,
 
-    val journal: List<UUID>,
+    val journal: UUID,
 
     val checkQuestions: List<UUID>,
     val answers: List<UUID>,
