@@ -7,6 +7,6 @@ data class Result(
     val id: UUID,
     val selectedAnswers: List<UUID>,
     val information: List<StoryBlock>,
-    val resultAudio: String?,
+    val resultAudio: String? = null,
     val status: DisclosureStatus,
 )

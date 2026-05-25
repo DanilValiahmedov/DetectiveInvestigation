@@ -7,18 +7,21 @@ data class GameModel(
     val variantGame: VariantGame,
 
     val prehistory: List<StoryBlock>,
-    val prehistoryAudio: String?,
-    val isOpen: Boolean,
+    val prehistoryAudio: String? = null,
+    val isOpen: Boolean = false,
 
     val percentageCompletion: Int,
     val maxPoints: Int,
     val actions: List<UUID>,
     val events: List<UUID>,
+    val dossier: List<UUID>,
     val pointsSpent: List<PointsSpent>,
+
+    val journal: List<UUID>,
 
     val checkQuestions: List<UUID>,
     val answers: List<UUID>,
     val results: List<UUID>,
     val solution: List<StoryBlock>,
-    val solutionAudio: String?,
+    val solutionAudio: String? = null,
 )

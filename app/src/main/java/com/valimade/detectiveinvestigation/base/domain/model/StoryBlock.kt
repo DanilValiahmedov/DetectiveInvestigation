@@ -5,5 +5,6 @@ import java.util.UUID
 data class StoryBlock(
     val id: UUID,
     val text: String,
-    val photo: String?,
+    val title: String? = null,
+    val photo: String? = null,
 )

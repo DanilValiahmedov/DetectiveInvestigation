@@ -6,8 +6,8 @@ data class Chapter(
     val id: UUID,
     val type: ChapterType,
     val title: String,
-    val description: String?,
-    val photoPreviewUrl: String?,
-    val notes: List<UUID>,
-    val isShow: Boolean,
+    val description: String? = null,
+    val photoPreviewUrl: String? = null,
+    val notes: List<UUID> = emptyList(),
+    val isShow: Boolean = false,
 )
