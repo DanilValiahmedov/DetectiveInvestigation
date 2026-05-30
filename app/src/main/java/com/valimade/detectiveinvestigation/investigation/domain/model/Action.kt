@@ -9,6 +9,7 @@ data class Action(
     val description: String? = null,
     val photoPreviewUrl: String? = null,
     val isNew: Boolean = true,
+    val isHide: Boolean = false,
     val isShow: Boolean = false,
     val isUsed: Boolean = false,
     val cost: Int = 1,

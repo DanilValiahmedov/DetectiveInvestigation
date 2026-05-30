@@ -14,7 +14,7 @@ data class GameModel(
     val maxPoints: Int,
     val actions: List<UUID>,
     val events: List<UUID>,
-    val dossier: List<UUID>,
+    val dossiers: List<UUID>,
     val pointsSpent: List<PointsSpent>,
 
     val journal: UUID,
