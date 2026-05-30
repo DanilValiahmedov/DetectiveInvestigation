@@ -12,6 +12,7 @@ data class Dossier(
     val alibi: String? = null,
     val specialSigns: String? = null,
     val additionalPhotos: List<String> = emptyList(),
+    val isNew: Boolean = true,
     val isShow: Boolean = false,
     val audio: String? = null,
 
