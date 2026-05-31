@@ -10,7 +10,7 @@ data class GameModel(
     val prehistoryAudio: String? = null,
     val isOpen: Boolean = false,
 
-    val percentageCompletion: Int,
+    val percentageCompletion: Int = 0,
     val maxPoints: Int,
     val actions: List<UUID>,
     val events: List<UUID>,

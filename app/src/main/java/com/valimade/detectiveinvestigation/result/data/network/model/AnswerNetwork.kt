@@ -7,6 +7,5 @@ import kotlinx.serialization.Serializable
 data class AnswerNetwork(
     val id: String,
     val information: List<StoryBlockNetwork>,
-    val isSelected: Boolean = false,
     val isRight: Boolean = false,
 )

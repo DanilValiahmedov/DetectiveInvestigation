@@ -5,11 +5,9 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class GameModelNetwork(
     val id: String,
-    val variantGame: String,
 
     val prehistory: List<StoryBlockNetwork>,
     val prehistoryAudio: String? = null,
-    val isOpen: Boolean = false,
 
     val maxPoints: Int,
     val actions: List<String>,
