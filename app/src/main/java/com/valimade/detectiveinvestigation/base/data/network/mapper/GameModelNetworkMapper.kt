@@ -33,6 +33,7 @@ object GameModelNetworkMapper {
 
     private fun pointsSpentFromNetworkToDomain(pointsSpent: PointsSpentNetwork): PointsSpent {
         return PointsSpent(
+            id = UUID.fromString(pointsSpent.id),
             maxPoints = pointsSpent.maxPoints,
             style = Style.valueOf(pointsSpent.style),
         )
